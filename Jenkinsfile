@@ -6,11 +6,6 @@ pipeline{
 	}
 	
     stages{
-		stage("Cleanup") {
-			steps{
-			
-			}
-		}
         stage("Build API") {
 			when {
 				anyOf {
