@@ -9,7 +9,7 @@ pipeline{
         stage("Build API") {
 			when {
 				anyOf {
-					changeset "supportbuddy-blazor-wasm-frontend/**"
+					changeset "**"
 				}
 			}
             steps{
