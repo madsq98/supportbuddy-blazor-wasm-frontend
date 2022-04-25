@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+      context: "supportbuddy-blazor-wasm-frontend"
+    container_name: "supportbuddy-frontend-container"
+    ports:
+      - "8080:80"
